@@ -1,0 +1,12 @@
+.parallax{
+    background-image: url('../images/agence_imo.jpg');
+    object-fit: cover;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.socialIcon:hover{
+    background-color: rgba(229, 221, 221, 0.74);
+    color: rgb(40, 40, 230);
+}
