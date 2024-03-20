@@ -16,13 +16,13 @@ function uploadFile() {
             document.getElementById("error").innerHTML = 'Image type doit etre jpeg/png'
             setTimeout(() => {
                 document.getElementById("error").innerHTML = ''
-            }, 500);
+            }, 2000);
         } else {
             if (fileSize > 200000) {
-                document.getElementById('error').innerHTML = 'Image size doit etre moin de 200000'
+                document.getElementById('error').innerHTML = 'Image size doit etre moin de 200000 kb'
                 setTimeout(() => {
                     document.getElementById('error').innerHTML = ''
-                }, 500);
+                }, 2000);
             } else {
 
                 let fileData = new FormData();

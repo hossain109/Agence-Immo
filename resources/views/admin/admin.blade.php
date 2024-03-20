@@ -72,11 +72,16 @@
 
        @yield('content')          
     </div>
-    <script src="{{ asset('js/bootstrap.min.js')}}" type="text/javascript"></script>
+    {{-- <script src="{{ asset('js/bootstrap.min.js')}}" type="text/javascript"></script>
     <script src="{{ asset('js/jquery-3.7.1.min.js')}}" type="text/javascript"></script>
     <script src="{{ asset('js/popper.min.js')}}" type="text/javascript"></script>
     <script src="{{ asset('js/axios.min.js')}}" type="text/javascript"></script>
-     <script src="{{ asset('js/upload.js')}}" type="text/javascript"></script>
+     <script src="{{ asset('js/upload.js')}}" type="text/javascript"></script> --}}
+     <script src="{{ url('public/js/bootstrap.min.js')}}" type="text/javascript"></script>
+    <script src="{{ url('public/js/jquery-3.7.1.min.js')}}" type="text/javascript"></script>
+    <script src="{{ url('public/js/popper.min.js')}}" type="text/javascript"></script>
+    <script src="{{ url('public/js/axios.min.js')}}" type="text/javascript"></script>
+     <script src="{{ url('public/js/upload.js')}}" type="text/javascript"></script>
      <script src="https://cdn.jsdelivr.net/npm/tom-select@2.3.1/dist/js/tom-select.complete.min.js"></script>
     <script>
         new TomSelect('select[multiple]',{ plugins: {remove_button: {title: "suprimmer"}}})

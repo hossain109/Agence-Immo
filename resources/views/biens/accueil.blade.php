@@ -54,7 +54,7 @@
 </ul>
 <p>Nos agents agence immobiliere seront présents pour vous accompagner durant ces étapes.</p>
 
-<p class="text-center p-3"><img src="{{asset('images/house.jpg')}}" height="50%" width="70%" alt="house"></p>
+<p class="text-center p-3"><img src="{{url('public/images/house.jpg')}}" height="50%" width="70%" alt="house"></p>
 
 <p>Vous souhaitez louer un bien immobilier en France ou dans les DROM COM ? Nos conseillers agence immobiliere l’Immobilier vous accompagnent dans votre recherche de location (étudiante, colocation, saisonnière.). Parmi un large choix de maisons, appartements, parkings, locaux commerciaux… vous trouverez sûrement votre bonheur !</p>
 
@@ -67,6 +67,6 @@
 
 </div>
 
-<p class="text-center"><a class="btn btn-primary" href="#">Contactez-nous</a></p>
+<p class="text-center"><a class="btn btn-primary" href="{{route('biens.index')}}">Contactez-nous</a></p>
 
 @endsection

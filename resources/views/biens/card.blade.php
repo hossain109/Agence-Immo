@@ -1,7 +1,7 @@
 
 
 <div class="card mb-2">
-    <a  href="{{ route('biens.show',['slug'=>$property->getSlug(),$property]) }}"> <img class="w-100" src="{{asset('storage/'.$property->picture->path)}}" alt="{{$property->picture->alt}}"></a>
+    <a  href="{{ route('biens.show',['slug'=>$property->getSlug(),$property]) }}"> <img class="w-100" src="{{url('public/storage/'.$property->picture->path)}}" alt="{{$property->picture->alt}}"></a>
    
     <div class="card-title text-center mt-3">
         <a class="text-decoration-none fs-4 pt-2" href="{{ route('biens.show',['slug'=>$property->getSlug(),$property]) }}">{{ $property->title }}</a>
