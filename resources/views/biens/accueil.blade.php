@@ -64,7 +64,6 @@
     Votre agent est là pour vous conseiller précisément sur le meilleur équilibre entre vos recherches, vos critères, vos besoins et votre budget …</p>
 
 <p><strong>En bref, agence immobiliere s'occupe de tout pour vous et avec vous !</strong></p>
-
 </div>
 
 <p class="text-center"><a class="btn btn-primary" href="{{route('biens.index')}}">Contactez-nous</a></p>
