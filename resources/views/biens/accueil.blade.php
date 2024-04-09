@@ -67,5 +67,5 @@
 </div>
 
 <p class="text-center"><a class="btn btn-primary" href="{{route('biens.index')}}">Contactez-nous</a></p>
-
+<p>Je vous attends</p>
 @endsection
